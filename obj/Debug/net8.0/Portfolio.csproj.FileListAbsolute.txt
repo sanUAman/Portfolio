@@ -28,3 +28,4 @@ C:\Users\dziva\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\refint\Portfoli
 C:\Users\dziva\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\Portfolio.pdb
 C:\Users\dziva\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\Portfolio.genruntimeconfig.cache
 C:\Users\dziva\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\ref\Portfolio.dll
+C:\Users\dziva\source\repos\Portfolio\Portfolio\obj\Debug\net8.0\Portfolio.sourcelink.json

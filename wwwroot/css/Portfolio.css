@@ -129,3 +129,139 @@ section {
             background-color: #64ffda;
             color: #0a192f;
         }
+
+
+.about {
+    padding: 100px 20px;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    text-align: center;
+}
+
+    .about h2 {
+        font-size: 2rem;
+        color: #64ffda;
+        margin-bottom: 20px;
+    }
+
+    .about p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+        color: #8892b0;
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about a {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #64ffda;
+        border: 1px solid #64ffda;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1rem;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .about a:hover {
+            background-color: #64ffda;
+            color: #0a192f;
+        }
+
+.about-section {
+    padding: 100px 20px;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    height: 100vh;
+}
+
+.about-container {
+    max-width: 900px;
+    text-align: left;
+}
+
+.header-with-line {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+    .header-with-line h2 {
+        font-size: 1.7rem;
+        color: #ccd6f6;
+        display: flex;
+        gap: 8px;
+        white-space: nowrap;
+    }
+
+    .header-with-line .line {
+        flex-grow: 1;
+        height: 1px;
+        background-color: #233149;
+    }
+
+.first-grid {
+    background-color: #12213a;
+    padding: 25px;
+    border: 1px solid #1e2d46;
+    border-radius: 10px;
+}
+
+    .first-grid .about-text {
+        font-size: 1.1rem;
+        color: #848fac;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+
+    .first-grid .role {
+        color: #5ff2d1;
+        font-size: 1rem;
+    }
+
+.skills-section h3 {
+    font-size: 1.3em;
+    color: #ccd6f6;
+    margin-bottom: 15px;
+}
+
+.skills-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.skills-column {
+    background-color: #12213a;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #1e2d46;
+    width: 283px;
+    text-align: left;
+}
+
+    .skills-column h4 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+        color: #5ff2d1;
+    }
+
+    .skills-column ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .skills-column li {
+        font-size: 1rem;
+        color: #848fac;
+        margin-bottom: 5px;
+    }
