@@ -208,6 +208,12 @@ section {
         background-color: #233149;
     }
 
+    .header-with-line .icon {
+        width: 18px;
+        height: auto;
+        object-fit: contain;
+    }
+
 .first-grid {
     background-color: #12213a;
     padding: 25px;
@@ -227,11 +233,26 @@ section {
         font-size: 1rem;
     }
 
+    .first-grid .icon {
+        width: 14px;
+        height: auto;
+        object-fit: contain;
+    }
+
 .skills-section h3 {
     font-size: 1.3em;
     color: #ccd6f6;
     margin-bottom: 15px;
+    display: flex;
+    gap: 8px;
 }
+
+    .skills-section .icon {
+        width: 17px;
+        height: auto;
+        object-fit: contain;
+        gap: 8px;
+    }
 
 .skills-grid {
     display: flex;
@@ -265,3 +286,102 @@ section {
         color: #848fac;
         margin-bottom: 5px;
     }
+
+
+.projects-section {
+    padding: 100px 20px;
+    background-color: #0a192f;
+    color: #ccd6f6;
+}
+
+.projects-container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+    .projects-container .header-with-line .icon {
+        width: 20px;
+        height: auto;
+        object-fit: contain;
+    }
+
+.projects-grid {
+    display: flex;
+    flex-direction: column; /* Вертикальне розташування */
+    gap: 30px; /* Відступи між проектами */
+}
+
+.project-card {
+    background-color: #12213a;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #1e2d46;
+    display: flex;
+    gap: 20px; /* Відступ між зображенням і текстом */
+    align-items: center; /* Вирівнювання по вертикалі */
+}
+
+    .project-card .project-image {
+        width: 410px;
+        height: 220px;
+        overflow: hidden;
+        border-radius: 10px;
+        flex-shrink: 0;
+    }
+
+        .project-card .project-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+    .project-card .project-details {
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        flex-grow: 1;
+    }
+
+    .project-card h3 {
+        font-size: 1.2rem;
+        color: #ccd6f6;
+    }
+
+    .project-card p {
+        font-size: 1rem;
+        color: #8892b0;
+    }
+
+.project-tags {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+    .project-tags span {
+        background-color: #233554;
+        color: #60f3d2;
+        padding: 5px 10px;
+        border-radius: 50px;
+        font-size: 0.9rem;
+    }
+
+.project-links {
+    display: flex;
+    gap: 10px;
+}
+
+    .project-links .btn {
+        padding: 5px 10px;
+        border: 1px solid #64ffda;
+        color: #7f88a7;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: background-color 0.3s, color 0.3s;
+    }
+
+        .project-links .btn:hover {
+            background-color: #64ffda;
+            color: #7f88a7;
+        }

@@ -13,6 +13,38 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\bag.png",
+      "PackagePath": "staticwebassets\\images\\bag.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\book.png",
+      "PackagePath": "staticwebassets\\images\\book.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\github.png",
+      "PackagePath": "staticwebassets\\images\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\human.png",
+      "PackagePath": "staticwebassets\\images\\human.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\p1.png",
+      "PackagePath": "staticwebassets\\images\\p1.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\p2.png",
+      "PackagePath": "staticwebassets\\images\\p2.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\p3.png",
+      "PackagePath": "staticwebassets\\images\\p3.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\projects.png",
+      "PackagePath": "staticwebassets\\images\\projects.png"
+    },
+    {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
