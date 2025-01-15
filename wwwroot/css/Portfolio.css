@@ -289,13 +289,13 @@ section {
 
 
 .projects-section {
-    padding: 100px 20px;
+    padding: 200px 20px;
     background-color: #0a192f;
     color: #ccd6f6;
 }
 
 .projects-container {
-    max-width: 900px;
+    max-width: 1000px;
     margin: 0 auto;
     text-align: left;
 }
@@ -308,8 +308,8 @@ section {
 
 .projects-grid {
     display: flex;
-    flex-direction: column; /* Вертикальне розташування */
-    gap: 30px; /* Відступи між проектами */
+    flex-direction: column;
+    gap: 30px;
 }
 
 .project-card {
@@ -318,8 +318,8 @@ section {
     border-radius: 10px;
     border: 1px solid #1e2d46;
     display: flex;
-    gap: 20px; /* Відступ між зображенням і текстом */
-    align-items: center; /* Вирівнювання по вертикалі */
+    gap: 30px;
+    align-items: center;
 }
 
     .project-card .project-image {
@@ -385,3 +385,96 @@ section {
             background-color: #64ffda;
             color: #7f88a7;
         }
+
+.contact-section {
+    padding: 200px 20px;
+    background-color: #0a192f;
+    color: #ccd6f6;
+    text-align: center;
+    height: 75vh;
+}
+
+.contact-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.say-hello-card {
+    background-color: #12213a;
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #1e2d46;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+}
+
+    .say-hello-card p {
+        font-size: 1.2rem;
+        color: #8892b0;
+    }
+
+    .say-hello-btn {
+        background-color: transparent;
+        border: 1px solid #64ffda;
+        border-radius: 5px;
+        color: #64ffda;
+        font-size: 1rem;
+        padding: 12px 25px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .say-hello-btn:hover {
+        background-color: #64ffda;
+        color: #0a192f;
+    }
+
+.contact-info {
+    display: flex;
+    justify-content: center; /* Центруємо всі блоки по горизонталі */
+    gap: 30px; /* Відступи між блоками */
+    margin-top: 50px; /* Опускаємо блоки нижче */
+}
+
+.contact-card {
+    display: flex; /* Використовуємо flex для розташування елементів горизонтально */
+    align-items: center; /* Вирівнюємо елементи по вертикалі */
+    background-color: #12213a;
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid #1e2d46;
+    width: 50%; /* Встановлюємо ширину блоку */
+    text-align: left; /* Текст вирівнюється вліво */
+    gap: 20px; /* Відступ між іконкою та текстом */
+}
+
+    .contact-card img {
+        width: 25px; /* Розмір іконки */
+        height: 23px;
+    }
+
+    .contact-card .text-container {
+        display: flex;
+        flex-direction: column; /* Розташування тексту один під одним */
+        gap: 5px; /* Відступ між рядками тексту */
+    }
+
+    .contact-card p {
+        margin: 0; /* Забираємо зайві відступи у тексту */
+        color: #ccd6f6;
+    }
+
+        .contact-card p:first-child {
+            font-weight: bold; /* Перший рядок — жирний */
+            font-size: 1.1rem; /* Трохи більший шрифт для заголовка */
+        }
+
+        .contact-card p:last-child {
+            font-size: 0.9rem; /* Менший шрифт для контактної інформації */
+            color: #8892b0; /* Трохи блідіший колір для другої лінії */
+        }
+
+
+

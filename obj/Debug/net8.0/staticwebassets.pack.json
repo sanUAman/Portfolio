@@ -21,6 +21,14 @@
       "PackagePath": "staticwebassets\\images\\book.png"
     },
     {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\contact.png",
+      "PackagePath": "staticwebassets\\images\\contact.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\email.png",
+      "PackagePath": "staticwebassets\\images\\email.png"
+    },
+    {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\github.png",
       "PackagePath": "staticwebassets\\images\\github.png"
     },
@@ -39,6 +47,10 @@
     {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\p3.png",
       "PackagePath": "staticwebassets\\images\\p3.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\phone.png",
+      "PackagePath": "staticwebassets\\images\\phone.png"
     },
     {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\projects.png",
