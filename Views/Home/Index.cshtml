@@ -4,16 +4,29 @@
 
 <link rel="stylesheet" href="~/css/Portfolio.css" asp-append-version="true" />
 <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
 
 <header>
-    <div class="logo" onclick="location.reload()">JD</div>
+    <div class="logo" onclick="location.reload()">DZH</div>
     <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#about" class="back-to-about-btn">About</a>
+        <a href="#projects" class="back-to-projects-btn">Projects</a>
+        <a href="#contact" class="back-to-contacts-btn">Contact</a>
         <a href="#resume" class="resume">Resume</a>
     </nav>
 </header>
+
+<script>
+    document.addEventListener('scroll', function () {
+        const header = document.querySelector('header');
+        if (window.scrollY > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+    });
+</script>
 
 <section class="hero">
     <div class="hero-content">
@@ -21,7 +34,7 @@
         <h1>Oleksandr Dzh.</h1>
         <h2>I build things for the web.</h2>
         <p class="info">I'm a fullstack developer with a passion for front-end development and design. I aspire toward a career that will allow me to create various web products through improving my development skills.</p>
-        <a href="#work">Check out my work</a>
+        <a href="#projects">Check out my works</a>
     </div>
 </section>
 
@@ -167,3 +180,65 @@
     </div>
 </section>
 
+<footer>
+    <div class="header-with-line">
+        <div class="line"></div>
+    </div>
+    <div class="back-to-top">
+        <a href="#top" class="back-to-top-btn">
+            <i class="fa-solid fa-arrow-up"></i>
+        </a>
+    </div>
+    <div class="social-icons">
+        <div class="li_icon">
+            <a href="https://facebook.com" target="_blank" class="social-icon">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+        </div>
+        <div class="li_icon">
+            <a href="https://instagram.com" target="_blank" class="social-icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+        </div>
+        <div class="li_icon">
+            <a href="https://twitter.com" target="_blank" class="social-icon">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </div>
+    </div>
+    <div class="footer-text">
+        <p>© 2025 Your Name. All rights reserved.</p>
+        <p>Built with React & Tailwind CSS</p>
+    </div>
+</footer>
+
+<script>
+    document.querySelector('.back-to-about-btn').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 900,
+            behavior: 'smooth',
+        });
+    });
+    document.querySelector('.back-to-projects-btn').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 2000,
+            behavior: 'smooth',
+        });
+    });
+    document.querySelector('.back-to-contacts-btn').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 3250,
+            behavior: 'smooth',
+        });
+    });
+    document.querySelector('.back-to-top-btn').addEventListener('click', function (e) {
+      e.preventDefault();
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth',
+      });
+    });
+</script>
