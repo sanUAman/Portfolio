@@ -5,15 +5,17 @@
 <link rel="stylesheet" href="~/css/Portfolio.css" asp-append-version="true" />
 <link href="https://fonts.googleapis.com/css?family=Inter" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
 
 <header>
-    <div class="logo" onclick="location.reload()">DZH</div>
+    <div class="logo animate__animated animate__fadeInDownBig" onclick="location.reload()">DZH</div>
     <nav>
-        <a href="#about" class="back-to-about-btn">About</a>
-        <a href="#projects" class="back-to-projects-btn">Projects</a>
-        <a href="#contact" class="back-to-contacts-btn">Contact</a>
-        <a href="#resume" class="resume">Resume</a>
+        <a href="#about" class="back-to-about-btn animate__animated animate__fadeInDownBig">About</a>
+        <a href="#projects" class="back-to-projects-btn animate__animated animate__fadeInDownBig">Projects</a>
+        <a href="#contact" class="back-to-contacts-btn animate__animated animate__fadeInDownBig">Contact</a>
+        <a href="#resume" class="resume animate__animated animate__fadeInDownBig">Resume</a>
     </nav>
 </header>
 
@@ -30,11 +32,11 @@
 
 <section class="hero">
     <div class="hero-content">
-        <h3>Hi, my name is</h3>
-        <h1>Oleksandr Dzh.</h1>
-        <h2>I build things for the web.</h2>
-        <p class="info">I'm a fullstack developer with a passion for front-end development and design. I aspire toward a career that will allow me to create various web products through improving my development skills.</p>
-        <a href="#projects">Check out my works</a>
+        <h3 data-aos="fade-up" data-aos-duration="500">Hi, my name is</h3>
+        <h1 data-aos="fade-up" data-aos-duration="750">Oleksandr Dzh.</h1>
+        <h2 data-aos="fade-up" data-aos-duration="1000">I build things for the web.</h2>
+        <p class="info" data-aos="fade-up" data-aos-duration="1250">I'm a fullstack developer with a passion for front-end development and design. I aspire toward a career that will allow me to create various web products through improving my development skills.</p>
+        <a data-aos="fade-up" data-aos-duration="1500" href="#projects">Check out my works</a>
     </div>
 </section>
 
@@ -44,7 +46,7 @@
             <h2><img src="/images/human.png" alt="human" class="icon">About Me</h2>
             <div class="line"></div>
         </div>
-        <div class="first-grid">
+        <div class="first-grid" data-aos="flip-up" data-aos-duration="500">
             <p class="about-text">
                 I'm a full-stack developer with a passion for building beautiful, functional, and user-friendly applications.
                 With expertise in both frontend and backend technologies, I create seamless experiences that solve real-world problems.
@@ -58,15 +60,15 @@
     <div class="skills-section">
         <h3><img src="/images/book.png" alt="book" class="icon">Skills & Technologies</h3>
         <div class="skills-grid">
-            <div class="skills-column">
+            <div class="skills-column" data-aos="flip-up" data-aos-duration="1000">
                 <h4>Frontend</h4>
                 <ul>
-                    <li>React</li>
-                    <li>TypeScript</li>
+                    <li>JavaScript</li>
+                    <li>HTML & CSS</li>
                     <li>Tailwind CSS</li>
                 </ul>
             </div>
-            <div class="skills-column">
+            <div class="skills-column" data-aos="flip-up" data-aos-duration="1500">
                 <h4>Backend</h4>
                 <ul>
                     <li>ASP.NET</li>
@@ -74,12 +76,10 @@
                     <li>SQL Server</li>
                 </ul>
             </div>
-            <div class="skills-column">
+            <div class="skills-column" data-aos="flip-up" data-aos-duration="2000">
                 <h4>Tools</h4>
                 <ul>
                     <li>Git</li>
-                    <li>Docker</li>
-                    <li>Azure</li>
                 </ul>
             </div>
         </div>
@@ -93,13 +93,13 @@
             <div class="line"></div>
         </div>
         <div class="projects-grid">
-            <div class="project-card">
+            <div class="project-card" data-aos="zoom-in" data-aos-duration="750">
                 <div class="project-image">
                     <img src="/images/p1.png" alt="first-project" class="photo">
                 </div>
                 <div class="project-details">
-                    <h3>Project One</h3>
-                    <p>A full-stack web application built with HTML, CSS and ASP.NET Core.</p>
+                    <h3>ProjeX</h3>
+                    <p>A full-stack web application built with HTML, CSS and ASP.NET Core. For managing your team`s projects.</p>
                     <div class="project-tags">
                         <span>HTML & CSS</span>
                         <span>C#</span>
@@ -111,17 +111,17 @@
                     </div>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="zoom-in" data-aos-duration="750">
                 <div class="project-image">
                     <img src="/images/p2.png" alt="second-project" class="photo">
                 </div>
                 <div class="project-details">
-                    <h3>Project Two</h3>
-                    <p>A modern e-commerce platform with real-time updates.</p>
+                    <h3>Future Project</h3>
+                    <p>Future description of this project.</p>
                     <div class="project-tags">
-                        <span>TypeScript</span>
-                        <span>ASP.NET</span>
-                        <span>Azure</span>
+                        <span>Creation technique</span>
+                        <span>Creation technique</span>
+                        <span>Creation technique</span>
                     </div>
                     <div class="project-links">
                         <a href="#" class="btn">🔗 Github</a>
@@ -129,17 +129,17 @@
                     </div>
                 </div>
             </div>
-            <div class="project-card">
+            <div class="project-card" data-aos="zoom-in" data-aos-duration="750">
                 <div class="project-image">
                     <img src="/images/p3.png" alt="third-project" class="photo">
                 </div>
                 <div class="project-details">
-                    <h3>Project Three</h3>
-                    <p>An AI-powered analytics dashboard.</p>
+                    <h3>Future Project</h3>
+                    <p>Future description of this project.</p>
                     <div class="project-tags">
-                        <span>React</span>
-                        <span>Python</span>
-                        <span>TensorFlow</span>
+                        <span>Creation technique</span>
+                        <span>Creation technique</span>
+                        <span>Creation technique</span>
                     </div>
                     <div class="project-links">
                         <a href="#" class="btn">🔗 Github</a>
@@ -157,19 +157,19 @@
             <h2><img src="/images/contact.png" alt="contact" class="icon">Get In Touch</h2>
             <div class="line"></div>
         </div>
-        <div class="say-hello-card">
+        <div class="say-hello-card" data-aos="flip-up" data-aos-duration="1000">
             <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
             <button class="say-hello-btn">Say Hello</button>
         </div>
         <div class="contact-info">
-            <div class="contact-card">
+            <div class="contact-card" data-aos="flip-up" data-aos-duration="1250">
                 <img src="/images/email.png" alt="email" class="icon">
                 <div class="text-container">
                     <p>Email</p>
                     <p>dzivalovoleksandr@gmail.com</p>
                 </div>
             </div>
-            <div class="contact-card">
+            <div class="contact-card" data-aos="flip-up" data-aos-duration="1500">
                 <img src="/images/phone.png" alt="phone" class="icon">
                 <div class="text-container">
                     <p>Phone</p>
@@ -207,8 +207,8 @@
         </div>
     </div>
     <div class="footer-text">
-        <p>© 2025 Your Name. All rights reserved.</p>
-        <p>Built with React & Tailwind CSS</p>
+        <p>© 2025 Oleksandr Dzhyvalov. All rights reserved.</p>
+        <p>Built with ASP.NET & HTML & CSS</p>
     </div>
 </footer>
 
@@ -241,4 +241,10 @@
         behavior: 'smooth',
       });
     });
+
+    AOS.init({
+        once: true
+    });
 </script>
+
+

@@ -43,17 +43,19 @@ header {
     }
 }
 
-    header .logo {
-        font-size: 1.5rem;
-        font-weight: bold;
-        color: #64ffda;
-        cursor: pointer;
-    }
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #64ffda;
+    cursor: pointer;
+    animation-duration: 0.5s;
+}
 
-    header nav {
-        display: flex;
-        gap: -10px;
-    }
+header nav {
+    display: flex;
+    gap: -10px;
+    animation-duration: 0.5s;
+}
 
         header nav a {
             padding: 10px 20px;
@@ -507,12 +509,13 @@ footer {
     color: #64ffda;
     font-size: 1.5rem;
     text-decoration: none;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
 
     .back-to-top-btn:hover {
         background-color: #64ffda;
         color: #0a192f;
+        transform: translateY(-5px);
     }
 
 .social-icons {
