@@ -15,7 +15,7 @@
         <a href="#about" class="back-to-about-btn animate__animated animate__fadeInDownBig">About</a>
         <a href="#projects" class="back-to-projects-btn animate__animated animate__fadeInDownBig">Projects</a>
         <a href="#contact" class="back-to-contacts-btn animate__animated animate__fadeInDownBig">Contact</a>
-        <a href="#resume" class="resume animate__animated animate__fadeInDownBig">Resume</a>
+        <a href="~/pdf/Resume.pdf" class="resume animate__animated animate__fadeInDownBig" target="_blank">Resume</a>
     </nav>
 </header>
 
@@ -36,7 +36,7 @@
         <h1 data-aos="fade-up" data-aos-duration="750">Oleksandr Dzh.</h1>
         <h2 data-aos="fade-up" data-aos-duration="1000">I build things for the web.</h2>
         <p class="info" data-aos="fade-up" data-aos-duration="1250">I'm a fullstack developer with a passion for front-end development and design. I aspire toward a career that will allow me to create various web products through improving my development skills.</p>
-        <a data-aos="fade-up" data-aos-duration="1500" href="#projects">Check out my works</a>
+        <a class="check-projects-btn" data-aos="fade-up" data-aos-duration="1500" href="#projects">Check out my works</a>
     </div>
 </section>
 
@@ -60,7 +60,7 @@
     <div class="skills-section">
         <h3><img src="/images/book.png" alt="book" class="icon">Skills & Technologies</h3>
         <div class="skills-grid">
-            <div class="skills-column" data-aos="flip-up" data-aos-duration="1000">
+            <div class="skills-column" data-aos="flip-up" data-aos-duration="500">
                 <h4>Frontend</h4>
                 <ul>
                     <li>JavaScript</li>
@@ -68,7 +68,7 @@
                     <li>Tailwind CSS</li>
                 </ul>
             </div>
-            <div class="skills-column" data-aos="flip-up" data-aos-duration="1500">
+            <div class="skills-column" data-aos="flip-up" data-aos-duration="750">
                 <h4>Backend</h4>
                 <ul>
                     <li>ASP.NET</li>
@@ -76,7 +76,7 @@
                     <li>SQL Server</li>
                 </ul>
             </div>
-            <div class="skills-column" data-aos="flip-up" data-aos-duration="2000">
+            <div class="skills-column" data-aos="flip-up" data-aos-duration="1000">
                 <h4>Tools</h4>
                 <ul>
                     <li>Git</li>
@@ -159,7 +159,7 @@
         </div>
         <div class="say-hello-card" data-aos="flip-up" data-aos-duration="1000">
             <p>I'm currently open for new opportunities. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
-            <button class="say-hello-btn">Say Hello</button>
+            <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMTFLKNddWkhwfGSrCNdZPVQhnZqlvnhbGwnXlVRlxMVdcXGPTRsMtsSSphFnrKkqxQXvCQ" target="_blank" class="say-hello-btn">Say Hello</a>
         </div>
         <div class="contact-info">
             <div class="contact-card" data-aos="flip-up" data-aos-duration="1250">
@@ -191,17 +191,17 @@
     </div>
     <div class="social-icons">
         <div class="li_icon">
-            <a href="https://facebook.com" target="_blank" class="social-icon">
+            <a href="https://www.facebook.com/profile.php?id=100046030630926" target="_blank" class="social-icon">
                 <i class="fa-brands fa-facebook"></i>
             </a>
         </div>
         <div class="li_icon">
-            <a href="https://instagram.com" target="_blank" class="social-icon">
+            <a href="https://www.instagram.com/m0nk3go/" target="_blank" class="social-icon">
                 <i class="fa-brands fa-instagram"></i>
             </a>
         </div>
         <div class="li_icon">
-            <a href="https://twitter.com" target="_blank" class="social-icon">
+            <a href="https://x.com/m0nk3go" target="_blank" class="social-icon">
                 <i class="fa-brands fa-twitter"></i>
             </a>
         </div>
@@ -213,10 +213,17 @@
 </footer>
 
 <script>
+    document.querySelector('.check-projects-btn').addEventListener('click', function (e) {
+        e.preventDefault();
+        window.scrollTo({
+            top: 2000,
+            behavior: 'smooth',
+        });
+    });
     document.querySelector('.back-to-about-btn').addEventListener('click', function (e) {
         e.preventDefault();
         window.scrollTo({
-            top: 900,
+            top: 950,
             behavior: 'smooth',
         });
     });
@@ -230,7 +237,7 @@
     document.querySelector('.back-to-contacts-btn').addEventListener('click', function (e) {
         e.preventDefault();
         window.scrollTo({
-            top: 3250,
+            top: 3300,
             behavior: 'smooth',
         });
     });

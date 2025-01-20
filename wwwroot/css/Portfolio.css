@@ -133,7 +133,6 @@ section {
         border-radius: 5px;
         text-decoration: none;
         font-size: 1.2rem;
-        transition: background-color 0.3s, color 0.3s;
     }
 
         .hero-content a:hover {
@@ -432,9 +431,10 @@ section {
         border-radius: 5px;
         color: #64ffda;
         font-size: 1rem;
-        padding: 12px 25px;
+        padding: 8px 22px;
         cursor: pointer;
         transition: all 0.3s ease;
+        text-decoration: none;
     }
 
     .say-hello-btn:hover {
