@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CHiL5bULiUfu8lOvCgOfp8uL/qHbaZm7MwjOmApN/NE=",
+  "Hash": "VDbMrdzTlDFogkubwKYOa8MVHF6feMJjhk1FXoFeGvQ=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -302,12 +302,12 @@
       "OriginalItemSpec": "wwwroot\\images\\projects.png"
     },
     {
-      "Identity": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\smooth_animations.js",
       "SourceId": "Portfolio",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\",
       "BasePath": "_content/Portfolio",
-      "RelativePath": "js/site.js",
+      "RelativePath": "js/smooth_animations.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -318,7 +318,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\site.js"
+      "OriginalItemSpec": "wwwroot\\js\\smooth_animations.js"
     },
     {
       "Identity": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
