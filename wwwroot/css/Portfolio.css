@@ -92,6 +92,10 @@ header nav {
     z-index: 1100;
 }
 
+    .menu-toggle.open {
+        content: "?";
+    }
+
 @media (max-width: 750px) {
     nav {
         visibility: hidden;
@@ -127,6 +131,7 @@ header nav {
         opacity: 1 !important;
     }
 }
+
 
 section {
     padding: 100px 20px;

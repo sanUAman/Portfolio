@@ -53,8 +53,10 @@ const nav = document.querySelector('nav');
 menuToggle.addEventListener('click', () => {
     if (nav.classList.contains('open')) {
         nav.classList.remove('open'); // Закриваємо меню
+        menuToggle.textContent = "☰"; // Міняємо іконку на бургер
     } else {
         nav.classList.add('open'); // Відкриваємо меню
+        menuToggle.textContent = "✖"; // Міняємо іконку на хрестик
     }
 });
 
@@ -62,6 +64,6 @@ menuToggle.addEventListener('click', () => {
 window.addEventListener('resize', () => {
     if (window.innerWidth > 750) {
         nav.classList.remove('open'); // Видаляємо клас 'open'
+        menuToggle.textContent = "☰"; // Міняємо іконку на бургер
     }
 });
-
