@@ -37,24 +37,24 @@
       "PackagePath": "staticwebassets\\images\\human.png"
     },
     {
-      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\p1.png",
-      "PackagePath": "staticwebassets\\images\\p1.png"
-    },
-    {
-      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\p2.png",
-      "PackagePath": "staticwebassets\\images\\p2.png"
-    },
-    {
-      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\p3.png",
-      "PackagePath": "staticwebassets\\images\\p3.png"
-    },
-    {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\phone.png",
       "PackagePath": "staticwebassets\\images\\phone.png"
     },
     {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\projects.png",
       "PackagePath": "staticwebassets\\images\\projects.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\py1.png",
+      "PackagePath": "staticwebassets\\images\\py1.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\py2.png",
+      "PackagePath": "staticwebassets\\images\\py2.png"
+    },
+    {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\py3.png",
+      "PackagePath": "staticwebassets\\images\\py3.png"
     },
     {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\smooth_animations.js",
