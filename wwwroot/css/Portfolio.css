@@ -39,7 +39,7 @@ header {
 
 @media (max-width: 1100px) {
     header {
-        padding: 20px 2%;
+        padding: 20px;
     }
 }
 
@@ -146,6 +146,12 @@ section {
     color: #ccd6f6;
 }
 
+@media (min-width: 320px) and (max-width: 490px) {
+    .hero {
+        height: 105vh;
+    }
+}
+
 .hero-content {
     max-width: 800px;
     text-align: left;
@@ -193,13 +199,13 @@ section {
 
 @media (max-width: 631px) {
     .hero-content h1 {
-        font-size: 3rem; /* Зменшення розміру шрифту, якщо необхідно */
-        margin-bottom: -20px; /* Збільшення негативного відступу, щоб зменшити відстань */
+        font-size: 3rem;
+        margin-bottom: -20px;
     }
 
     .hero-content h2 {
-        font-size: 2.5rem; /* Зменшення розміру шрифту, якщо необхідно */
-        margin-top: 25px; /* Додаткове зменшення відстані між h1 і h2 */
+        font-size: 2.5rem;
+        margin-top: 25px;
         line-height: 1;
     }
 
@@ -212,13 +218,13 @@ section {
 
 @media (max-width: 520px) {
     .hero-content h1 {
-        font-size: 3rem; /* Зменшення розміру шрифту, якщо необхідно */
-        margin-bottom: -20px; /* Збільшення негативного відступу, щоб зменшити відстань */
+        font-size: 3rem;
+        margin-bottom: -20px;
     }
 
     .hero-content h2 {
-        font-size: 2.5rem; /* Зменшення розміру шрифту, якщо необхідно */
-        margin-top: 25px; /* Додаткове зменшення відстані між h1 і h2 */
+        font-size: 2.5rem;
+        margin-top: 25px;
         line-height: 1;
     }
 
@@ -226,6 +232,15 @@ section {
         font-size: 1rem;
         margin-top: 30px;
         color: #7e88a5;
+    }
+}
+
+@media (max-width: 404px) {
+    .hero-content h1 {
+        font-size: 3rem;
+        margin-top: 20px;
+        margin-bottom: 0;
+        line-height: 1;
     }
 }
 
@@ -278,6 +293,12 @@ section {
     justify-content: center;
     gap: 30px;
     height: 100vh;
+}
+
+@media (min-width: 320px) and (max-width: 490px) {
+    .about-section {
+        height: 110vh;
+    }
 }
 
 .about-container {
@@ -345,12 +366,12 @@ section {
     gap: 8px;
 }
 
-    .skills-section .icon {
-        width: 17px;
-        height: auto;
-        object-fit: contain;
-        gap: 8px;
-    }
+.skills-section .icon {
+    width: 17px;
+    height: auto;
+    object-fit: contain;
+    gap: 8px;
+}
 
 .skills-grid {
     display: flex;
@@ -397,10 +418,10 @@ section {
     }
 
     .skills-column {
-        width: 100%; /* Розтягує картки до ширини контейнера */
-        padding: 20px; /* Додатковий внутрішній відступ */
-        border-radius: 10px; /* Заокруглення, як у верхньої картки */
-        box-sizing: border-box; /* Враховує padding у розрахунку ширини */
+        width: 100%;
+        padding: 20px;
+        border-radius: 10px;
+        box-sizing: border-box;
     }
 }
 
@@ -408,6 +429,7 @@ section {
     padding: 200px 20px;
     background-color: #0a192f;
     color: #ccd6f6;
+    height: 135vh;
 }
 
 .projects-container {
@@ -502,40 +524,39 @@ section {
             color: #7f88a7;
         }
 
-@media (min-width: 400px) and (max-width: 813px) {
+@media (min-width: 320px) and (max-width: 490px) {
     .projects-grid {
         display: flex;
-        flex-direction: column; /* Відображення карток у вертикальному вигляді */
+        flex-direction: column;
         gap: 30px;
     }
 
     .project-card {
         display: flex;
-        flex-direction: column; /* Елементи розташовані вертикально */
+        flex-direction: column;
         gap: 15px;
-        align-items: stretch; /* Розтягуємо елементи по ширині блоку */
-        text-align: center; /* Центруємо текст */
-        width: 100%; /* Картка займає всю ширину контейнера */
+        align-items: stretch;
+        text-align: center;
+        width: 100%;
+        height: auto;
     }
 
         .project-card .project-image {
-            width: 100%; /* Фото займає всю ширину блоку */
-            height: 220px; /* Висота налаштовується динамічно */
-            overflow: hidden; /* Обрізаємо зайве */
-            border-radius: 10px; /* Тільки верхні кути закруглені */
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+            border-radius: 10px;
         }
 
             .project-card .project-image img {
-                width: 100%; /* Зображення розтягується на всю ширину */
-                height: 100%; /* Пропорційна висота */
-                object-fit: cover; /* Обрізаємо зайве, якщо потрібно */
+                object-fit: cover;
                 object-position: center;
                 border-radius: inherit;
             }
 
         .project-card .project-details {
-            padding: -10px; /* Відступи для тексту */
-            text-align: left; /* Текст вирівняний по лівому краю */
+            padding: -10px;
+            text-align: left;
         }
 
         .project-card h3 {
@@ -551,7 +572,7 @@ section {
     .project-tags {
         display: flex;
         flex-wrap: wrap;
-        justify-content: flex-start; /* Теги вирівняні по лівому краю */
+        justify-content: flex-start;
         gap: 10px;
     }
 
@@ -565,7 +586,93 @@ section {
 
     .project-links {
         display: flex;
-        justify-content: flex-start; /* Кнопки вирівняні по лівому краю */
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+        .project-links .btn {
+            padding: 5px 10px;
+            border: 1px solid #64ffda;
+            color: #7f88a7;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+            .project-links .btn:hover {
+                background-color: #64ffda;
+                color: #7f88a7;
+            }
+}
+
+@media (min-width: 490px) and (max-width: 813px) {
+    .projects-section {
+        height: 185vh;
+    }
+
+    .projects-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .project-card {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+        text-align: center;
+        width: 100%;
+    }
+
+        .project-card .project-image {
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+
+            .project-card .project-image img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: center;
+                border-radius: inherit;
+            }
+
+        .project-card .project-details {
+            padding: -10px;
+            text-align: left;
+        }
+
+        .project-card h3 {
+            font-size: 1.2rem;
+            color: #ccd6f6;
+        }
+
+        .project-card p {
+            font-size: 1rem;
+            color: #8892b0;
+        }
+
+    .project-tags {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+        .project-tags span {
+            background-color: #233554;
+            color: #60f3d2;
+            padding: 5px 10px;
+            border-radius: 50px;
+            font-size: 0.9rem;
+        }
+
+    .project-links {
+        display: flex;
+        justify-content: flex-start;
         gap: 10px;
     }
 
@@ -592,6 +699,12 @@ section {
     height: 125vh;
 }
 
+@media (min-width: 490px) and (max-width: 813px) {
+    .contact-section {
+        height: 115vh;
+    }
+}
+
 .contact-container {
     max-width: 1000px;
     margin: 0 auto;
@@ -613,17 +726,17 @@ section {
         color: #8892b0;
     }
 
-    .say-hello-btn {
-        background-color: transparent;
-        border: 1px solid #64ffda;
-        border-radius: 5px;
-        color: #64ffda;
-        font-size: 1rem;
-        padding: 8px 22px;
-        cursor: pointer;
-        transition: all 0.3s ease;
-        text-decoration: none;
-    }
+.say-hello-btn {
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 5px;
+    color: #64ffda;
+    font-size: 1rem;
+    padding: 8px 22px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
 
     .say-hello-btn:hover {
         background-color: #64ffda;
@@ -742,4 +855,3 @@ footer {
     margin: 5px 0;
     font-size: 0.9rem;
 }
-

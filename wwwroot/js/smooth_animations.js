@@ -15,24 +15,63 @@ document.querySelector('.check-projects-btn').addEventListener('click', function
 });
 document.querySelector('.back-to-about-btn').addEventListener('click', function (e) {
     e.preventDefault();
-    window.scrollTo({
-        top: 950,
-        behavior: 'smooth',
-    });
+
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 647) {
+        window.scrollTo({
+            top: 900,
+            behavior: 'smooth',
+        });
+    } else if (screenWidth <= 1920) {
+        window.scrollTo({
+            top: 950,
+            behavior: 'smooth',
+        });
+    }
 });
 document.querySelector('.back-to-projects-btn').addEventListener('click', function (e) {
     e.preventDefault();
-    window.scrollTo({
-        top: 2000,
-        behavior: 'smooth',
-    });
+
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 490) {
+        window.scrollTo({
+            top: 2150,
+            behavior: 'smooth',
+        });
+    } else if (screenWidth <= 1920) {
+        window.scrollTo({
+            top: 2000,
+            behavior: 'smooth',
+        });
+    }
 });
 document.querySelector('.back-to-contacts-btn').addEventListener('click', function (e) {
     e.preventDefault();
-    window.scrollTo({
-        top: 3300,
-        behavior: 'smooth',
-    });
+    const screenWidth = window.innerWidth;
+
+    if (screenWidth <= 489) {
+        window.scrollTo({
+            top: 3525,
+            behavior: 'smooth',
+        });
+    } else if (screenWidth <= 683) {
+        window.scrollTo({
+            top: 3800,
+            behavior: 'smooth',
+        });
+    } else if (screenWidth <= 813) {
+        window.scrollTo({
+            top: 3725,
+            behavior: 'smooth',
+        });
+    } else if (screenWidth <= 1920) {
+        window.scrollTo({
+            top: 3200,
+            behavior: 'smooth',
+        });
+    }
 });
 document.querySelector('.back-to-top-btn').addEventListener('click', function (e) {
     e.preventDefault();
