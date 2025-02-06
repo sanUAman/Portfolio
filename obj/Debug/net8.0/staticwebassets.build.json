@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qIQeNPcOgNio/cFuXfheR8LDoPL7Du4kspfcb03TCy8=",
+  "Hash": "r/KkphPCDzIlqv5ck+lVNe0ZuUUcrYQBTn01wiIKevw=",
   "Source": "Portfolio",
   "BasePath": "_content/Portfolio",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\Portfolio.css"
+    },
+    {
+      "Identity": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\css\\Resolution.css",
+      "SourceId": "Portfolio",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\",
+      "BasePath": "_content/Portfolio",
+      "RelativePath": "css/Resolution.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Resolution.css"
     },
     {
       "Identity": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\favicon.ico",

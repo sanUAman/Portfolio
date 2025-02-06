@@ -9,6 +9,10 @@
       "PackagePath": "staticwebassets\\css\\Portfolio.css"
     },
     {
+      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\css\\Resolution.css",
+      "PackagePath": "staticwebassets\\css\\Resolution.css"
+    },
+    {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
