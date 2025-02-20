@@ -13,10 +13,6 @@
       "PackagePath": "staticwebassets\\css\\Resolution.css"
     },
     {
-      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
-    },
-    {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
@@ -63,10 +59,6 @@
     {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\images\\py3.png",
       "PackagePath": "staticwebassets\\images\\py3.png"
-    },
-    {
-      "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "C:\\Users\\dziva\\source\\repos\\Portfolio\\Portfolio\\wwwroot\\js\\smooth_animations.js",
