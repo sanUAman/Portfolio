@@ -50,12 +50,6 @@
 
 /* hero */
 
-@media (min-width: 320px) and (max-width: 490px) and (max-height: 850px) {
-    .hero {
-        height: 105vh;
-    }
-}
-
 @media (max-width: 631px) {
     .hero-content h1 {
         font-size: 3rem;
@@ -85,6 +79,10 @@
 }
 
 @media (min-width: 320px) and (max-width: 390px) and (min-height: 640px) {
+    .hero {
+        height: 105vh;
+    }
+
     .hero-content h1 {
         font-size: 3rem;
         margin-bottom: -15px;
@@ -111,36 +109,6 @@
 
 /* about */
 
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 850px) {
-    .about-section {
-        height: 110vh;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 700px) {
-    .about-section {
-        margin-top: -75px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 750px) {
-    .about-section {
-        margin-top: -100px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 800px) {
-    .about-section {
-        margin-top: -225px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 640px) {
-    .about-section {
-        height: 185vh;
-    }
-}
-
 @media (max-width: 647px) {
     .skills-section {
         width: 100%;
@@ -160,13 +128,15 @@
     }
 }
 
+@media (min-width: 320px) and (max-width: 813px) and (min-height: 640px) and (max-height: 900px) {
+    .about-section {
+        padding-top: 150px;
+    }
+}
+
 /* projects */
 
 @media (min-width: 491px) and (max-width: 813px) {
-    .projects-section {
-        height: 185vh;
-    }
-
     .projects-grid {
         display: flex;
         flex-direction: column;
@@ -249,11 +219,6 @@
 }
 
 @media (min-width: 320px) and (max-width: 490px) and (min-height: 640px) {
-    .projects-section {
-        height: 200vh;
-        margin-top: -100px;
-    }
-
     .projects-grid {
         display: flex;
         flex-direction: column;
@@ -334,20 +299,13 @@
             }
 }
 
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 750px) {
+@media (min-width: 320px) and (max-width: 813px) and (min-height: 640px) and (max-height: 900px) {
     .projects-section {
-        height: 185vh;
-        margin-top: -200px;
+        padding-top: 250px;
     }
 }
 
 /* contacts */
-
-@media (min-width: 490px) and (max-width: 813px) {
-    .contact-section {
-        height: 115vh;
-    }
-}
 
 @media (max-width: 683px) {
     .contact-info {
@@ -360,51 +318,8 @@
     }
 }
 
-@media (min-width: 320px) and (max-width: 342px) and (min-height: 640px) {
+@media (min-width: 320px) and (max-width: 813px) and (min-height: 640px) and (max-height: 900px) {
     .contact-section {
-        height: 175vh;
-        margin-top: -100px;
-    }
-}
-
-@media (min-width: 344px) and (max-width: 490px) and (min-height: 640px) {
-    .contact-section {
-        height: 175vh;
-        margin-top: -175px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 700px) {
-    .contact-section {
-        height: 180vh;
-        margin-top: -100px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 750px) {
-    .contact-section {
-        height: 155vh;
-        margin-top: -175px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 800px) {
-    .contact-section {
-        height: 150vh;
-        margin-top: -225px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 850px) {
-    .contact-section {
-        height: 145vh;
-        margin-top: -275px;
-    }
-}
-
-@media (min-width: 320px) and (max-width: 490px) and (min-height: 900px) {
-    .contact-section {
-        height: 140vh;
-        margin-top: -325px;
+        padding: 250px 20px;
     }
 }
